@@ -1,0 +1,277 @@
+img{
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+
+h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    color: rgb(32, 32, 32);
+}
+
+
+p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.title{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 500;
+    font-style: italic;
+    border-bottom:20px;
+    font-size: 17px;
+    margin: 0px;
+    padding-left: 0px;
+    display: block;
+    color: #040443
+    
+    
+}
+.date{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 9px;
+      display: block;
+      padding-bottom: 2px;
+      color: #040443
+}
+
+.author{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    display: block;
+    color: #040443
+   
+
+}
+    
+.photographer{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: #040443
+  
+       
+}
+
+
+h3{
+    text-align: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(16, 55, 94);
+  
+}
+.quotes{
+
+    border-bottom:100px; 
+    left: 0x;
+    right: 25px;
+    position: absolute; 
+    left: 650;
+    bottom: 50px;
+    padding-left: 10px;
+    background-color: #E6F1F8;
+    color: #040443
+    
+    
+
+}
+
+.quotes p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 250;
+    font-style: italic;
+    font-size: 13px;
+
+}
+
+.share{
+    position: fixed;
+    top:90px;
+    right: 25px;
+    color: rgb(16, 55, 94)
+}
+
+.back{
+    float:left;
+     padding-left: 20px;
+     padding-top: 20px;
+
+}
+i {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    float: left;
+
+  }
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+body{
+    background-color:#B7C8D7;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top:0;
+  
+}
+.hamburger{
+     height:20px;
+     width: 20px;
+     float:right;
+     padding-right: 33px;
+     padding-top: 33px;
+    
+}
+
+}
+.logo{ 
+    position: fixed;
+    width:200%;
+}
+.content{
+    border:3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+   margin-top: 130px;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   height: 418px;
+   width: 300px;
+   z-index: 100;
+
+  
+}
+
+.content img{
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.subcontent1{
+    
+    border:3px solid black;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+   margin-top: 140px;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   height: 418px;
+   width: 300px;
+   z-index: 70;
+}
+.subcontent1 img{
+    height: 100%;
+    width: 100%;
+}
+
+    
+}
+
+.subcontent1 p{ 
+    padding-left: 20px;
+    padding-right: 20px;}
+
+.subcontent2{
+
+    border:3px solid black;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+   margin-top: 150px;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   height: 418px;
+   width: 300px;
+   z-index: 50;
+   
+}
+
+.subcontent2 img{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.subcontent2 p{ 
+    padding-left: 20px;
+    padding-right: 40px;
+   
+}
+
+.content1 p{
+    padding-left: 20px;
+    padding-right: 30px;
+   font-kerning: 1px;
+    margin-top: .5em;
+ 
+}
+
+.content2 p{
+    padding-left: 20px;
+    padding-right: 9px;
+   font-kerning: 2px;
+    margin-top: .5em;
+  
+}
+
+
+.previous{
+    position: fixed;
+    border-bottom:00px;
+    left: 45px;
+    bottom: 30px;
+    color: rgb(16, 55, 94);
+}
+.pages{
+    position: fixed;
+    border-bottom:00px;
+    right: 20px;
+    bottom: 30px;
+}
+.intro{
+    background-color: #E6F1F8;
+
+    position: absolute; 
+    left: 0;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-right: 30px;
+    
+}
+.fixthree{
+    height: 100%;
+    width: 100%;
+}
