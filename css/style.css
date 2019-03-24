@@ -73,9 +73,9 @@ p{
 h3{
     text-align: right;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
-    color: rgb(16, 55, 94);
+    color: rgb(18, 47, 75);
   
 }
 .quotes{
@@ -88,7 +88,7 @@ h3{
     bottom: 50px;
     padding-left: 10px;
     background-color: #E6F1F8;
-    color: #040443
+    color: #11553e
     
     
 
@@ -96,9 +96,9 @@ h3{
 
 .quotes p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-weight: 250;
+    font-weight: 290;
     font-style: italic;
-    font-size: 13px;
+    font-size: 14px;
 
 }
 
@@ -153,6 +153,17 @@ body{
     position: fixed;
     width:200%;
 }
+
+
+.facebook{ 
+    height:50px;
+    width: 50px;
+    float:right;
+    padding-right: 93px;
+    padding-top: 22px;
+
+}
+
 .content{
     border:3px solid black;
     margin-left: 20px;
@@ -251,14 +262,14 @@ body{
     position: fixed;
     border-bottom:00px;
     left: 45px;
-    bottom: 30px;
+    bottom: 35px;
     color: rgb(16, 55, 94);
 }
 .pages{
     position: fixed;
     border-bottom:00px;
     right: 20px;
-    bottom: 30px;
+    bottom: 35px;
 }
 .intro{
     background-color: #E6F1F8;
@@ -275,3 +286,6 @@ body{
     height: 100%;
     width: 100%;
 }
+.facebook{
+    <a href="#" class="fa fa-facebook"></a>}
+
